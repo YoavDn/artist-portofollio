@@ -1,0 +1,21 @@
+#app-layout {
+  // background-color: red;
+
+  color: $clr-brand;
+  padding: 20px;
+}
+
+#app {
+  grid-column: 2;
+}
+
+@media (min-width: $mq-sm) {
+}
+
+@media (min-width: $mq-l) {
+  #app-layout {
+    // background-color: red;
+    display: grid;
+    grid-template-columns: auto 1040px auto;
+  }
+}
